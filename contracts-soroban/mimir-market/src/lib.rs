@@ -50,3 +50,5 @@ mod test_batch_get_claims;
 mod test_rematch_status;
 #[cfg(test)]
 mod test_budgets;
+#[cfg(test)]
+mod test_oracle_timelock;
