@@ -1,0 +1,27 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-359-fix-api-do-not-cache-rejected-promises-in",
+    "fix/issue-398-perf-api-cap-and-paginate-the-public-reasoning",
+    "fix/issue-472-test-contracts-add-resource-budget-regression",
+    "fix/issue-479-test-ui-add-visual-regression-snapshots-for",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-359-fix-api-do-not-cache-rejected-promises-in": "main",
+    "fix/issue-398-perf-api-cap-and-paginate-the-public-reasoning": "main",
+    "fix/issue-472-test-contracts-add-resource-budget-regression": "main",
+    "fix/issue-479-test-ui-add-visual-regression-snapshots-for": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-359-fix-api-do-not-cache-rejected-promises-in",
+    "fix/issue-398-perf-api-cap-and-paginate-the-public-reasoning",
+    "fix/issue-472-test-contracts-add-resource-budget-regression",
+    "fix/issue-479-test-ui-add-visual-regression-snapshots-for",
+    "origin"
+  ]
+}
