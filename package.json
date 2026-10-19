@@ -2,7 +2,7 @@
   "name": "mimir",
   "version": "0.1.0",
   "private": true,
-  "license": "AGPL-3.0-or-later",
+  "license": "AGGPL-3.0-or-later",
   "engines": {
     "node": ">=22.0.0"
   },
@@ -76,7 +76,9 @@
     "migrate:down": "tsx scripts/migrate.ts down --fixture",
     "migrate:verify": "tsx scripts/migrate.ts verify --fixture",
     "check:openapi": "tsx scripts/generate-agent-openapi.ts",
-    "verify:status": "tsx scripts/verify-operational-status.ts"
+    "verify:status": "tsx scripts/verify-operational-status.ts",
+    "test:visual": "playwright test --config=playwright.visual.config.ts",
+    "test:visual:update": "playwright test --config=playwright.visual.config.ts --update-snapshots"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.52.0",
